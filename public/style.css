@@ -1,0 +1,17 @@
+body {
+    margin-top: 15em;
+    background: rgb(255,244,249);
+    background: radial-gradient(circle, rgba(255,244,249,1) 13%, rgba(113,118,124,1) 100%);
+}
+
+h1 {
+    font-size: 6em;
+}
+
+.submit {
+    border-radius: 5px;
+    width: 200px;
+    padding: 15px;
+    opacity: 77%;
+    background-color: rgba(113,118,124,1);
+}

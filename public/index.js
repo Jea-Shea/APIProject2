@@ -6,7 +6,7 @@ const searchTerm = document.querySelector('.search');
 const searchForm = document.querySelector('form'); 
 const submitBtn = document.querySelector('.submit');
 const colorTerm = document.querySelector('.color');
-const container = document.querySelector('#test')
+const container = document.querySelector('#test');
 searchForm.addEventListener('submit', wallpapers);
 
 
@@ -47,9 +47,14 @@ function displayWallpaper(json)   {
             let current = wallpapers[i].urls.small;
             console.log(current);
             images.src = current;
-
             container.appendChild(images);
-        }
 
+            searchForm.addEventListener('submit', () => {
+                console.log('oh hi mark')
+                container.removeChild(images);
+                wallpapers();
+            })
+        }
     }
+
 }
