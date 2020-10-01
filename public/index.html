@@ -4,28 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link ref="text/css" rel="stylesheet" href="./style.css" />
+    <link ref="text/css" rel="stylesheet" href="/API.Challenge2/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
     <title>Wallpaper</title>
 </head>
 <body>
-    <h1 class="text-center">Update your wallpaper</h1>
+    <h1 class="text-center">Update your wallpaper</h1>                         
     <form class="text-center">
         <p>
-          <label for="search">Enter a SINGLE search term: </label>
-          <input type="text" id="search" class="search" required>
-          <label for="color">Color: </label>
-          <input type="text" id="color" class="color" >
+          <label for="search" id="input" style="font-family: 'Oswald', sans-serif; color: rgba(113,118,124,1) 100%; font-size: 2em;"> Enter a SINGLE search term: </label>
+          <input type="text" id="search" class="search" style="opacity: 80%; background-color: rgb(255,244,249); border-color: rgb(255,244,249);"  required>
+          <label for="color" style="font-family: 'Oswald', sans-serif; color: rgba(113,118,124,1) 100%; font-size: 2em;" >Color: </label>
+          <input type="text" id="color" class="color" style="opacity: 80%; background-color: rgb(255,244,249); border-color: rgb(255,244,249);" required>
         </p>
         <p>
-          <button class="submit" style="font-family: 'Oswald', sans-serif;" >Submit search</button>
+          <button class="submit" style="font-family: 'Oswald', sans-serif; color: #000000 100%; font-size: 1em;" >Submit Search</button>
         </p>
       </form>
-    <div class="container" id="test">
+    <div class="container" id="container">
         <!-- <img src="" id="test" /> -->
-        <div class="row" id="rowOne"></div>
-        <div class="row" id="rowTwo"></div>
-        <div class="row" id="rowThree"></div>
     </div>
     <script src="index.js"></script>
 </body>

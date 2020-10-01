@@ -12,6 +12,8 @@ h1 {
     border-radius: 5px;
     width: 200px;
     padding: 15px;
-    opacity: 77%;
-    background-color: rgba(113,118,124,1);
+    opacity: 55%;
+    background-color: rgba(255,244,249,1);
+    border-color: rgba(255,244,249,1);
+    box-shadow: 0px 0px #000000;
 }
